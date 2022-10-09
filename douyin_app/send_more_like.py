@@ -11,9 +11,9 @@ def adb_tap(x,y,sleep=0):
     time.sleep(sleep)
 
 
-send_times = 100
+send_times = 222
 for i in range(0,send_times):
     print("第%s次发送"%i)
-    x = int(random.random()*10)+503
-    y = int(random.random()*10)+1267
+    x = int(random.random()*10)+303
+    y = int(random.random()*10)+767
     adb_tap(x,y,0)
